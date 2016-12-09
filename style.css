@@ -227,7 +227,10 @@ body{
     transform: rotatey(-180deg);
 }
 .well{
-    height: 10rem;
+    height: 15rem;
+    border-radius: 15px;
+    color: #ffffff;
+
 }
 .inner{margin:0px !important;
 background-color: rgb(149,23,104);
