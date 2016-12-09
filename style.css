@@ -106,90 +106,10 @@ body { padding-top: 60px; }
 /* Flip Panel */
 /*-=-=-=-=-=-=-=-=-=-=- */
 
-/*.wrapper{ margin: 0 auto;  background-color: #bdd3de; hoverflow: hidden;}*/
 
-/*.panel {*/
-    /*margin: 0 auto;*/
-    /*height: 130px;*/
-    /*position: relative;*/
-    /*-webkit-perspective: 600px;*/
-    /*-moz-perspective: 600px;*/
-/*}*/
-
-/*.panel .front,*/
-/*.panel .back {*/
-    /*text-align: center;*/
-/*}*/
-
-/*.panel .front {*/
-    /*height: inherit;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*z-index: 900;*/
-    /*text-align: center;*/
-    /*-webkit-transform: rotateX(0deg) rotateY(0deg);*/
-    /*-moz-transform: rotateX(0deg) rotateY(0deg);*/
-    /*-webkit-transform-style: preserve-3d;*/
-    /*-moz-transform-style: preserve-3d;*/
-    /*-webkit-backface-visibility: hidden;*/
-    /*-moz-backface-visibility: hidden;*/
-    /*-webkit-transition: all .4s ease-in-out;*/
-    /*-moz-transition: all .4s ease-in-out;*/
-    /*-ms-transition: all .4s ease-in-out;*/
-    /*-o-transition: all .4s ease-in-out;*/
-    /*transition: all .4s ease-in-out;*/
-/*}*/
-
-/*.panel .back {*/
-    /*height: inherit;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*z-index: 1000;*/
-    /*-webkit-transform: rotateY(-180deg);*/
-    /*-moz-transform: rotateY(-180deg);*/
-    /*-webkit-transform-style: preserve-3d;*/
-    /*-moz-transform-style: preserve-3d;*/
-    /*-webkit-backface-visibility: hidden;*/
-    /*-moz-backface-visibility: hidden;*/
-    /*-webkit-transition: all .4s ease-in-out;*/
-    /*-moz-transition: all .4s ease-in-out;*/
-    /*-ms-transition: all .4s ease-in-out;*/
-    /*-o-transition: all .4s ease-in-out;*/
-    /*transition: all .4s ease-in-out;*/
-/*}*/
-/*.panel.flip .front {*/
-    /*z-index: 900;*/
-    /*-webkit-transform: rotateY(180deg);*/
-    /*-moz-transform: rotateY(180deg);*/
-/*}*/
-/*.panel.flip .back {*/
-    /*z-index: 1000;*/
-    /*-webkit-transform: rotateX(0deg) rotateY(0deg);*/
-    /*-moz-transform: rotateX(0deg) rotateY(0deg);*/
-/*}*/
-/*.box1{*/
-    /*background-color: #d52685;*/
-    /*width: 250px;*/
-    /*height: 150px;*/
-    /*margin: 0 auto;*/
-    /*padding: 20px;*/
-    /*border-radius: 10px;*/
-    /*-moz-border-radius: 10px;*/
-    /*-webkit-border-radius: 10px;*/
-/*}*/
-/*.box2{*/
-    /*background-color: #ffcc00;*/
-    /*width: 250px;*/
-    /*height: 150px;*/
-    /*margin: 0 auto;*/
-    /*padding: 20px;*/
-    /*border-radius: 10px;*/
-    /*-moz-border-radius: 10px;*/
-    /*-webkit-border-radius: 10px;*/
-/*}*/
 body{
-    padding-top:50px;
-    background: #fff;
+    /*padding-top:50px;*/
+    /*background: #fff;*/
 }
 .flip {
     -webkit-perspective: 800;
@@ -204,7 +124,7 @@ body{
 }
 .flip .card {
 
-    height: 10rem;
+    /*height: 10rem;*/
     -webkit-transform-style: preserve-3d;
     -webkit-transition: 0.5s;
     transform-style: preserve-3d;
@@ -244,10 +164,22 @@ background-color: rgb(149,23,104);
 /*----------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------*/
+.robon{
+    /*width/: 100%;*/
+    height: 10rem;
+    background-image: url("2015-Toyota-Land-Cruiser-facelift-instrument-cluster.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+
+
+
+
+/*socoal medias attribiut*/
 .social li {
-    background: none repeat scroll 0 0 #B5B5B5;
-    border: 2px solid #B5B5B5;
+    background: none repeat scroll 0 0 #dfb9d2;
+    border: 2px solid #dfb9d2;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -277,8 +209,8 @@ background-color: rgb(149,23,104);
     color: #EDEFF1;
 }
 .social li:hover {
-    border: 2px solid #2c3e50;
-    background: #2c3e50;
+    border: 2px solid rgb(149,23,104);
+    background: rgb(149,23,104);
 }
 .social li a i {
     font-size: 16px;
@@ -293,3 +225,4 @@ ul {
     margin-top: 15px;
     color: #7F8C8D;
 }
+
